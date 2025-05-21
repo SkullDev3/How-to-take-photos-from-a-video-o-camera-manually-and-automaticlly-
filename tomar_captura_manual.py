@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture("aeropuerto.mp4")
+cap = cv2.VideoCapture("aeropuerto.mp4")#"aeropuerto.mp4) es un video grabado si deseas poner tu cámara pon 0 o 1 
 contador = 0
 while True:
     ret, frame = cap.read()
